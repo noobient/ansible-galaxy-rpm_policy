@@ -1,0 +1,6 @@
+---
+- name: Install crypto policy utils
+  package:
+    name: crypto-policies-scripts
+    state: latest
+  register: installed_rpmpolicies
