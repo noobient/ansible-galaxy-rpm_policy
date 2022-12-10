@@ -4,4 +4,8 @@
     - include_role:
         name: "{{ playbook_dir.split('/')[:-1] | last }}"
       vars:
-        policy: 'FUTURE'
+        policy: "{{ item.policy }}"
+      # Check for idempotency too
+      loop:
+        - { policy: 'FUTURE' }
+        - { policy: 'FUTURE' }
