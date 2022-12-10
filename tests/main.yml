@@ -7,5 +7,5 @@
         policy: "{{ item.policy }}"
       # Check for idempotency too
       loop:
-        - { policy: 'FUTURE' }
+        - { policy: 'future' }
         - { policy: 'FUTURE' }
