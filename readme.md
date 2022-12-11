@@ -8,7 +8,7 @@ This role sets the RPM crypto policy.
 
 | Name | Required | Example | Description |
 |---|---|---|---|
-| `policy` | yes | `FUTURE` |  Sets the RPM crypto policy. Allowed values are usually `DEFAULT`, `EMPTY`, `FIPS`, `FUTURE`, and `LEGACY`. |
+| `policy` | yes | `FUTURE` | Sets the RPM crypto policy. Allowed values are usually `DEFAULT`, `EMPTY`, `FIPS`, `FUTURE`, and `LEGACY`. |
 
 ## Examples
 
