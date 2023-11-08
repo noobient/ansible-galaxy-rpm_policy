@@ -14,7 +14,7 @@ This role sets the RPM crypto policy.
 
 ```yml
 - include_role:
-    name: bviktor.rpm_policy
+    name: noobient.rpm_policy
   vars:
     policy: 'FUTURE'
 ```
