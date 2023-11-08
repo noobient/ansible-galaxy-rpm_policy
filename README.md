@@ -1,4 +1,4 @@
-# bviktor.rpm_policy
+# noobient.rpm_policy
 
 ## Synopsys
 

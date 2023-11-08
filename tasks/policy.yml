@@ -5,7 +5,7 @@
   changed_when: false
   register: current_rpm_policy
 
-- name: "Set RPM crypto policy to {{ policy }}"
+- name: "Set RPM crypto policy to {{ policy }}" # noqa no-changed-when
   command:
     cmd: "update-crypto-policies --set {{ policy | upper }}"
   when: current_rpm_policy.stdout != policy | upper
