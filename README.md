@@ -34,4 +34,4 @@ N/A
 | Fedora 41 | ✅ | [![Fedora 41](https://github.com/noobient/ansible-galaxy-rpm_policy/actions/workflows/fedora-41.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-rpm_policy/actions/workflows/fedora-41.yml) |
 | Ubuntu 20.04 | ❌ | N/A |
 | Ubuntu 22.04 | ❌ | N/A |
-| Ubuntu 24.04 | ✅ | [![Ubuntu 24.04](https://github.com/noobient/ansible-galaxy-rpm_policy/actions/workflows/ubuntu-24.04.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-rpm_policy/actions/workflows/ubuntu-24.04.yml) |
+| Ubuntu 24.04 | ❌ | N/A |
